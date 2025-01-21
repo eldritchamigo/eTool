@@ -1,0 +1,28 @@
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 6px
+    
+}
+
+.input {
+    font-size: 14px;
+    line-height: 2;
+}
+
+:root {
+    font-family :Arial, Helvetica, "Nimbus Sans L", "Liberation Sans", FreeSans, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column; 
+    margin: 0px
+}
+
+.asu_header{
+    background-color:#8C1D40; 
+    color:#FFC627;
+    flex: 0 0 20%
+}

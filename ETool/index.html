@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta http-equiv="refresh" content="3">
+    <title>ASU Enterprise Technology eSignature Tool</title>
+</head>
+
+<body>
+    <div class="asu_header">
+        <h1>ASU Enterprise Technology Email Signature Tool</h1>
+    </div>
+    <p>Enterprise Technology employees can include an eSignature in their email signature line to list their
+        department, title, and contact information.</p>
+    <p>Create a personalized email signatue by using the tool provided below.</p>
+
+    <div class="container">
+        <label for="Facility">Facility</label>
+        <select class="input" name="Facilities" id="facility-select">
+            <option value="">-Select-</option>
+            <option value="Information Security">Information Security</option>
+            <option value="Facilities Management">Facilities Management</option>
+            <option value="Experience Center">Experience Center</option>
+            <option value="Human Resources">Human Resources</option>
+        </select>
+
+        <div style="display: flex; flex-direction: row; width: 100%">
+            <div style="flex-direction: row; flex: 0 0 33.33%">
+                <label style="flex: 0 0 50%" for="name">Full Name</label>
+                <input style="flex: 0 0 50%" class="input" type="text" id="name" name="name" required minlength="4" maxlength="30"
+                    size="10" />
+            </div>
+            <div style="flex-direction: row;">
+                <label for="title">Title</label>
+                <input class="input" type="text" id="title" name="title" required minlength="4" maxlength="30"
+                    size="10" />
+            </div>
+            <div>
+                <label for="Pronouns">Pronouns (Optional)</label>
+                <select class="input" name="Pronouns" id="Pronouns-select">
+                    <option value="">-Select-</option>
+                    <option value="he/him">he/him</option>
+                    <option value="she/her">she/her</option>
+                    <option value="they/them">they/them</option>
+                    <option value="Prefer not to answer"> </option>
+                </select>
+            </div>
+        </div>
+
+        <div style="display: flex; flex-direction: row">
+            <div style="display: flex; flex-direction: row;">
+                <label style="flex: 0 0 16.66%" for="email">Email</label>
+                <input style="flex: 0 0  16.66%" class="input" type="text" id="email" name="email" required minlength="4" maxlength="30"
+                    size="10" />
+            </div>
+
+            <div style="display: flex; flex-direction: row;">
+                <label style="flex: 0 0 16.66%" for="Mobile Phone">Mobile Phone</label>
+                <input style="flex: 0 0 16.66%" class="input" type="text" id="Mobile" name="Mobile" required minlength="4" maxlength="30"
+                    size="10" />
+            </div>
+
+        </div>
+
+        <button class="Submit" type="button">Submit</button>
+
+    </div>
+
+
+    <!--
+Facilities
+Full name   Pronouns-select
+email Mobile
+submit
+-->
