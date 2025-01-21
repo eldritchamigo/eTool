@@ -5,5 +5,6 @@
 <p> Desired outcome would be to create a webpage where users can input employee information, click submit & an eSignature is created; the eSignature would either be a string of text or HTML that can be copied or pasted onto the Outlook email </p>
 
 <p>example:</p>
-<img width="486" alt="image" src="https://github.com/user-attachments/assets/21dc5c79-a603-48d3-be91-1eb7d35b5b91" />
+<img width="477" alt="image" src="https://github.com/user-attachments/assets/49ce215e-20d9-4f97-b0d3-3c2c6ad8517e" />
+
 
